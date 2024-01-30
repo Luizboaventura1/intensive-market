@@ -1,8 +1,8 @@
 <template>
   <Header class="flex items-center relative">
-    <main class="grid grid-cols-1 md:grid-cols-2 gap-3">
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-3 my-8 md:my-0">
       <div class="flex items-center">
-        <div class="mt-6 md:mt-0">
+        <div>
           <nav class="text-center md:text-start">
             <Logo />
             <Title>
