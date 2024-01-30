@@ -2,16 +2,22 @@
   <Header class="flex items-center relative">
     <main class="grid grid-cols-1 md:grid-cols-2 gap-3">
       <div class="flex items-center">
-        <div class="text-center md:text-start mt-6 md:mt-0">
-          <Logo />
-          <Title>
-            Aprenda a dominar as melhores estratégias do marketing digital
-          </Title>
+        <div class="mt-6 md:mt-0">
+          <nav class="text-center md:text-start">
+            <Logo />
+            <Title>
+              Aprenda a dominar as melhores estratégias do marketing digital
+            </Title>
+            <Subtitle>
+              Inscreva-se no nosso <strong>INTENSIVE MARKET</strong> e tenha
+              acesso a um conteúdo exclusivo mostrando o passo a passo para ter
+              sucesso no marketing digital.
+            </Subtitle>
+          </nav>
           <Subtitle>
-            Inscreva-se no nosso <strong>INTENSIVE MARKET</strong> e tenha
-            acesso a um conteúdo exclusivo mostrando o passo a passo para ter
-            sucesso no marketing digital.
+            🚀 Seus futuros resultados 👇
           </Subtitle>
+          <Sales />
         </div>
       </div>
       <div class="flex justify-center items-center">
@@ -49,6 +55,8 @@ import Input from "./components/Input.vue";
 import Logo from "./components/Logo.vue";
 import Subtitle from "./components/Text/Subtitle.vue";
 import Title from "./components/Text/Title.vue";
+import Sales from './components/Sales/index.vue'
+
 </script>
 
 <style lang="scss" scoped>
